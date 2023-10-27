@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio</title>
+   
+</head>
+<body background="C:\Users\Public\Pictures\Sample Pictures\Penguins.jpg">
+<style>
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color:brown;
+    color:green;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    background-color:brown;
+    padding: 10px;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color:green;
+}
+
+section {
+    padding: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+button {
+    background-color:brown;
+    color:green;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+</style>    
+<header>
+<pre>      
+  <h1><font size= 30 color="red"><center>STUDENT PORTFOLIO</center></font></h1>
+    </header>
+    <nav>
+        <ul>
+           <h2> <li><a href="E:/antony/about.html">About Me</a></li></h2>
+            <h2><li><a href="E:/antony/project.html">Projects</a></li></h2>
+            <h2><li><a href="E:/antony/contact.html">Contact</a></li><h2>
+        </ul>
+    </nav>
+    </pre>
+    <marquee> STUDENT PORTFOLIO </marquee>
+    
+   
+    <script>
+document.getElementById("contact-form").addEventListener("submit", function (event) {
+    event.preventDefault();
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const message = document.getElementById("message").value;
+
+    // Here, you can add code to handle form submission, e.g., sending an email or saving the data to a database.
+    // This can be done using technologies like Node.js or a server-side script.
+
+    // After handling the form, you can provide feedback to the user, e.g., by displaying a success message.
+});
+</script>
+</body>
+</html>
